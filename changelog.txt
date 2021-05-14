@@ -1,0 +1,131 @@
+﻿---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 25.04.2021
+  Fixes:
+    - Fix du bug lors de la commandes /xp
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 11.04.2021
+  Adds:
+    - Ajout de l'index dans la structure "surface" (global.leaderboard.surfaces).
+    - Remise à zero des temps de jeu (sur suppression de surface dans RitnTP).
+    - Remise à zero des stats par forces (sur suppression d'une force : merge).
+  Notes:
+    - Version stable du mod (0.3)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 02.04.2021
+  Fixes:
+    - Mise à jour du calcul d'XP : spawner x 11 pour l'XP total au lieu de 1x.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 02.04.2021
+  Changes:
+    - Mise à jour du calcul d'XP : spawner x 11 pour l'XP total au lieu de 1x.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 02.04.2021
+  Fixes:
+    - Mise à jour du calcul d'XP par force et global.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 30.03.2021
+  Changes:
+    - Mise à jour du calcul d'XP par force et global.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 29.03.2021
+  Fixes:
+    - Correctif mineur sur la fonction "removePlayer".
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 29.03.2021
+  Changes:
+    - Les datas "forces" deviennent "surfaces".
+    - Refonte du système de calcul du temps par surface.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 08.03.2021
+  Changes:
+    - Standardisation du fichier "control".
+    - mise en place du "core" pour la standardisation du mod.
+    - mise en place d'un fichier de migration.
+    - Exportation des fonctions "utils" vers la nouvelle version de "RitnLib" (0.4.2).
+    - Ne prend pas en compte toutes les équipes commencant par "enemy". (RitnTeleportation 1.5.x)
+  Adds:
+    - Ajout de data global "forces" pour comptabilisé le temps en jeu de chaque équipe.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 07.02.2021
+  Fixes:
+    - Correction sur la commande : /nb_item
+  Adds:
+    - Ajout de la commande : /score (pour les admins)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 07.02.2021
+  Fixes:
+    - Correctif mineur de fonctionnement du mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 06.02.2021
+  Fixes:
+    - Correction sur la commande : /nb_item
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 05.02.2021
+  Changes:
+    - Optimisation + amélioration du code.
+    - Passage des function en local.
+    - Fonctions rangés dans un dossier par type de fonctions.
+  Adds:
+    - Ajout de la commande : /nb_item
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 04.02.2021
+  Fixes:
+    - Passage des variables "global" (non noté "local") dans la structure global du jeu.
+      Permettra d'éviter les désynchros ave le mod : gvv 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 04.02.2021
+  Notes:
+    - Passage en 1.1.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 11.11.2020
+  Changes:
+    - Compatibilité avec RitnLib 0.3.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 12.10.2020
+  Fixes:
+    - Fixes de la la commande /xp
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 12.10.2020
+  Changes:
+    - Calcul de l'XP totale intégré.
+  Adds:
+    - Ajout du lien avec le mod : gvv
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 26.07.2020
+  Changes:
+    - Passage de l'event-listener du mod RitnLib.
+  Adds:
+    - Ajout du calcul d'XP.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 26.07.2020
+  Changes:
+    - Optimisation de la récupération des stats par équipe.
+  Adds:
+    - Objets lancés dans la fusées (synthèse de tous).
+    - Tués par Joueurs (synthèse de tous).
+    - Tués par Aliens (synthèse de tous).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 22.07.2020
+  New:
+    - Création du mod
