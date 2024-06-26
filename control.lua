@@ -1,8 +1,7 @@
---Init variable : global
-require("core.global")
-if script.active_mods["gvv"] then require("__gvv__.gvv")() end
--- Chargement de l'event listener :
-local event_listener = require("__RitnLib__/lualib/event-listener")
+-- Load defines
+require("core.defines")
+require(ritnlib.defines.leaderboard.setup)
+-- Activation de gvv s'il est présent
+if script.active_mods["gvv"] then require(ritnlib.defines.gvv)() end
 -- envoie des modules à l'event listener :
-event_listener.add_libraries(require("core.modules"))
-require("lualib.leaderboard")
+local listener = require(ritnlib.defines.event).add_libraries(require(ritnlib.defines.leaderboard.modules.core))

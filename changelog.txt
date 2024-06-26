@@ -1,4 +1,9 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 30.12.2023
+  Big Changes:
+    - Refonte complète du mod pour reprendre la logique de RitnLib et gérer l'intégration à RitnCoreGame / RitnBaseGame.
+---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 25.04.2021
   Fixes:
