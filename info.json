@@ -1,6 +1,6 @@
 {
   "name": "RitnLeaderboard",
-  "version": "0.4.1",
+  "version": "1.0.1",
   "title": "RitnLeaderboard",
   "author": "Ritn",
   "contact": "",
@@ -8,8 +8,8 @@
   "description": "Factorio-Leaderboard mod adapted for my RitnTeleportation mod.",
   "dependencies": [ 
     "base",
-    "RitnLib >= 0.4.4",
-  "! factorio-leaderboard"
+    "RitnBaseGame >= 0.5",
+    "RitnLog >= 0.5"
   ],
   "factorio_version": "1.1"
 }
